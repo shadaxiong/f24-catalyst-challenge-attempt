@@ -1,7 +1,7 @@
 // How do I run this script?
 
 // In the terminal folder with Task1a.ts
-// node Task1a.js   
+// node Task1a.js
 
 // type: string[]
 const todoList = []; 
@@ -23,6 +23,12 @@ const todoList = [];
  */
 function addAndPrintTodos() {
     // YOUR CODE HERE
+    todoList.push("Apply to y/cs!");
+    todoList.push("Pick out my classes");
+    todoList.push("Have dinner with my suite");
+    todoList.forEach(function(entry) {
+        console.log(entry);
+      });
 }
 
 /**
